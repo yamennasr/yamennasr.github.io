@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Liniume</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Portfolio (Still in beta)</div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about-me-section">About Me</a>
+            <a href="#projects-section">Projects</a>
+            <a href="#menuetos-section">MenuetOS</a>
+            <a href="#experience-section">Experience</a>
+            <a href="#blog-section">Blog</a>
+            <a href="#contact-section">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    
+    <div id="home" class="home-section">
+        <section id="about-me-section" class="card-container">
+            <div class="card" id="about-me">
+                <div class="card-front">
+                    <h2>About Me</h2>
+                    <p>Learn more about my background and skills.</p>
+                </div>
+                <div class="card-back">
+                    <h2>About Me</h2>
+                    <p>I am Yamen, a 15-year-old student. I am constantly acquiring new knowledge, both through my studies at school and during my online sessions, as well as through the experiences of everyday life. I take great pleasure in embracing the wonders of the world, as it inspires me with a sense of creativity. In the future, my ambition is to transform the world into a realm of greater harmony, simplicity, and convenience for future generations to come.
+</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects-section" class="card-container">
+            <div class="card" id="projects">
+                <div class="card-front">
+                    <h2>Projects</h2>
+                    <p>Explore the projects I've worked on.</p>
+                </div>
+                <div class="card-back">
+                    <h2>Projects</h2>
+                    <p>I have made multiple projects over the years, mostly training AI models and creating websites. I like to design and embrace my creativity; the newest project I am currently working on is MenuetOS's new interface design (read the "MenuetOS" card section for more info)</p>
+                </div>
+            </div>
+        </section>
+        <section id="menuetos-section" class="card-container">
+            <div class="card" id="menuetos">
+                <div class="card-front">
+                    <h2>MenuetOS</h2>
+                    <p>My contributions to MenuetOS.</p>
+                </div>
+                <div class="card-back">
+                    <h2>MenuetOS</h2>
+                    <p>To start, please read the introduction on: menuetos.net (keep in mind that the website is getting updated soon, so if you need screenshots about the journey, don't hesitate to contact me)</p>
+                </div>
+            </div>
+        </section>
+        <section id="experience-section" class="card-container">
+            <div class="card" id="experience">
+                <div class="card-front">
+                    <h2>Experience</h2>
+                    <p>Overview of my internships and workshops.</p>
+                </div>
+                <div class="card-back">
+                    <h2>Experience</h2>
+                    <p>I have taken multiple internships and workshops with "Clevered" and Oxford Professor Dr. Ken. I even got to attend workshops for AI and prompt engineering that helped me understand AI in a broader look.</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog-section" class="card-container">
+            <div class="card" id="blog">
+                <div class="card-front">
+                    <h2>Blog</h2>
+                    <p>Read my latest blog posts and articles.</p>
+                </div>
+                <div class="card-back">
+                    <h2>Blog</h2>
+                    <p>Coming Soon ;)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Contact Section -->
+  
+    <section id="contact-section" class="contact-section">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch via the form below. My email is yamennasr@icloud.com</p>
+            <form action="mailto:yamennasr@icloud.com" method="POST" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <div class="details-overlay" id="details-overlay">
+        <div class="details-content" id="details-content"></div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
